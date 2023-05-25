@@ -1,0 +1,15 @@
+.main{
+    padding-left: 20px;
+    padding: 250px;
+    box-sizing: cover;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-size: cover;
+    width: auto;
+    background-color: rgb(208, 230, 230);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

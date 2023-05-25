@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ANALYSER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Contact</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+
+          </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+    <h1 class="ashel">IUI ANALYSER</h1>
+    <div class="main">
+    <div class="male">MALE</div>
+    <div class="age">
+    <p>1. Enter your age</p>
+        <select id="age" >
+        <option value="0">Select</option>
+          <option value="18">18-25</option>
+          <option value="26">26-35</option>
+          <option value="36">36-45</option>
+          <option value="46">46 and above</option>
+        </select>
+    </div>
+    <div>
+        <p>2.Did you take semen analysis test?</p>
+        <input type="radio" name="test1" value=1>yes
+        <input type="radio" name="test1" value=0>no
+    </div>
+    <div>
+        <!--<p>3.What is your sperm count?</p>
+        <select id="count">
+        <option value="0">Select</option>
+        <option value="less">less than 15 million sperm per milliliter</option>
+        <option value="greater">greater than 15 million sperm per milliliter</option>
+    </select> -->
+        <p>3.What is your sperm count? Is it less than 15 million sperm per milliliter.</p>
+        <input type="radio" name="test9" value=5>yes
+        <input type="radio" name="test9" value=0>no
+    
+    </div>
+    <div>
+       <!---- <p>4.What is your sperm motility?</p>
+        <select id="motality">
+            <option value="0">Select</option>
+            <option value="bellow 40">less than 40%</option>
+            <option value="above 40">greater than 40%</option>
+        </select> -->
+        <p>4.What is your sperm motility? Is it less than 40%.</p>
+        <input type="radio" name="test10" value=4>yes
+        <input type="radio" name="test10" value=0>no
+    </div>
+    <br>
+    <div class="female">FEMALE</div>
+    <div >
+        <p>1. Enter your age</p>
+            <select id="ageF">
+                <option value="0">Select</option>
+              <option value="18">18-25</option>
+              <option value="26">26-35</option>
+              <option value="36">36-45</option>
+              <option value="46">46 and above</option>
+            </select>
+    </div>
+    <div>
+        <p>2.Do you have case of blocked fallopian tube?</p>
+        <input type="radio" name="test2" value=3>yes
+        <input type="radio" name="test2" value=0>no
+    </div>
+    <div>
+        <label>
+        <p>3.Do you suffer from endometriosis?</p>
+        <input type="radio" name="test3" value=3>yes
+        <input type="radio" name="test3" value=0>no
+    </label>
+    </div>
+    <div>
+        <label>
+        <p>4.Do you suffer from PCOS?</p>
+        <input type="radio" name="test4" value=5>yes
+        <input type="radio" name="test4" value=0>no
+        </label>
+    </div>
+    <div>
+        <label>
+        <p>5.Is your menstruation cycle normal?</p>
+        <input type="radio" name="test5" value=30>yes
+        <input type="radio" name="test5" value=0>no
+    </label>
+    </div>
+    <div>
+        <label>
+        <p>6.Did you take fhs,LH,TSH test?</p>
+        <input type="radio" name="test6" value=35>yes
+        <input type="radio" name="test6" value=0>no
+    </label>
+    </div>
+    <div>
+        <label>
+        <p>7.Have you had any miscarriages?</p>
+        <input type="radio" name="test7" value=4>yes
+        <input type="radio" name="test7" value=0>no
+    </label>
+    </div>
+    
+    <br>
+    <div> 
+        <button type="button" onclick="getdata()">SUBMIT</button>
+    </div>
+    <br>
+    </div>
+    <script type="text/Javascript" src="q.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+.main{
+    padding-left: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(208, 230, 230);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 11px;
+    border-color: rgb(0, 0, 0);
+    border: 3px solid black;
+    font-family: "Audiowide", sans-serif;
+} 
+.ashel{
+    padding-left: 20px;
+    padding: 250px;
+    box-sizing: cover;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-size: cover;
+    text-align-last: center;
+    width: auto;
+    background-color: rgb(208, 230, 230);
+    border: 3px solid black;
+    font-size: 50px;
+    border-radius: 11px;
+    color: rgb(0, 0, 0);
+    font-family: "Audiowide", sans-serif;
+    
+}
+.male{
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+}
+.female{
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+}
